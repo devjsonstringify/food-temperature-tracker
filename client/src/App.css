@@ -1,0 +1,56 @@
+/*Overide CSS*/
+#root {
+	background-color: #f3f3f3;
+	height: 100%;
+	width: 100%;
+}
+.home .ui.grid > .row > .column {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.home .ui button {
+	display: block;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: none;
+	max-width: 100%;
+	min-width: 50%;
+}
+.home .ui.button:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+.home .card,
+.home .card .image {
+	background: rgba(0, 0, 0, 0);
+	box-shadow: none;
+}
+.home .six.wide.column {
+	border: 1px solid #c5c5c5;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background-color: #ffffff;
+	-webkit-box-shadow: -1px -1px 19px 0px rgba(50, 50, 50, 0.38);
+	-moz-box-shadow: -1px -1px 19px 0px rgba(50, 50, 50, 0.38);
+	box-shadow: -1px -1px 19px 0px rgba(50, 50, 50, 0.38);
+	border-radius: 5px;
+}
+/*Date-picker*/
+.react-datepicker-wrapper {
+	width: 100%;
+}
+
+.card .ui.table {
+	border: 0;
+	text-transform: uppercase;
+}
+.card .content .header {
+	text-transform: uppercase;
+}
+
+/*Add food page*/
+.row > .ui.form {
+	width: 100%;
+}
+.ui.medium.header {
+	width: 100%;
+}

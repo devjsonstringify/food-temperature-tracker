@@ -1,0 +1,38 @@
+https://dev.to/kevinleedrum/axios-tips-for-real-world-apps-3bo4
+
+NODE AND EXPRESS.JS
+-------------
+https://www.codepedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/#232_PUT_podcast_for_FULL_update_8211_200_OK
+https://www.robinwieruch.de/node-js-express-tutorial/
+https://medium.com/@vsvaibhav2016/create-crud-application-in-express-js-9b88a5a94299
+-------------
+API design
+https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9
+-------------
+CURL command
+https://www.baeldung.com/curl-rest
+https://www.codepedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/#232_PUT_podcast_for_FULL_update_8211_200_OK
+https://medium.com/@martinlasek/tutorial-write-a-crud-api-using-json-c1edb1439d8a
+-------------
+
+CRUD OPERATION WITH CURL
+*** GET request
+curl -v http://localhost:5000/api/foods/ | jq
+-------------
+*** POST request 
+curl -H "Content-Type: application/json" -X POST -d '{"name":"Gerry", "category": "patty", temperature": 100}' http://localhost:5000/api/v1/foods/patty/create
+-------------
+*** DELETE request
+curl -X DELETE http://localhost:5000/api/foods/patty/5d3fec1778bac40850847eec/delete
+-------------
+*** UPDATE request
+curl -H "Content-Type: application/json" -X PUT -d '{"name":"no longer GOD", "temperature": 1000}' http://localhost:5000/api/foods/patty/5d3fec2878bac40850847eed/update | jq
+-------------
+VIEW PAGE BY ID 
+curl http:localhost:500/api/foods/patty/5d3fec2878bac40850847eed
+
+
+
+
+ATLAS_URI=mongodb+srv://dbMern:dbMern@cluster0-mggsr.mongodb.net/test?retryWrites=true&w=majority
+PORT=5000

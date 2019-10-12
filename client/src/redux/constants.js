@@ -1,0 +1,1 @@
+export const SELECTED_FOOD = 'SELECTED_FOOD'
